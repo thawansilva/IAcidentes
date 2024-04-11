@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .active {
+    @apply w-11/12 ml-auto font-bold text-indigo-100 bg-indigo-700;
+  }
+  .link {
+    @apply block px-2 py-1 duration-300 ease-in-out rounded-lg hover:bg-indigo-700 hover:text-indigo-100;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-black;
+}

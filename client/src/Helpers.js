@@ -28,7 +28,7 @@ export const getYears = () => {
 
 export const getRegions = () => {
   let regions = [
-    { value: "todos", label: "Todos" },
+    { value: "todas", label: "Todas" },
     { value: "centro-oeste", label: "Centro-oeste" },
     { value: "norte", label: "Norte" },
     { value: "nordeste", label: "Nordeste" },
